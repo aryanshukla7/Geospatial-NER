@@ -56,7 +56,7 @@ def load_spark_nlp_model():
                                     tokenClassifier_loaded,
                                     ner_converter])
 
-    checkpoint = "/content/drive/MyDrive/Dead_line ISRO/distilbert-finetuned-ner-2/checkpoint-3135"
+    checkpoint = "/content/drive/MyDrive/NER/checkpoint-3135"
     token_classifier = pipeline(
         "token-classification", model=checkpoint, aggregation_strategy="simple"
     )
@@ -167,7 +167,7 @@ def getNER(text):
 
   extracted_list = extracted_result.collect()
 
-  checkpoint = "/content/drive/MyDrive/Dead_line ISRO/distilbert-finetuned-ner-2/checkpoint-3135"
+  checkpoint = "/content/drive/MyDrive/NER/checkpoint-3135"
   token_classifier = pipeline(
       "token-classification", model=checkpoint, aggregation_strategy="simple"
   )
@@ -218,9 +218,9 @@ def fuzzyMatching(fuzzy_li, universe_of_names):
 
 def fuzzyMatchingPreprocessing():
 
-    countries_df = pd.read_csv("/content/drive/MyDrive/Dead_line ISRO/Matching Tables/countries.csv")
-    states_df = pd.read_csv("/content/drive/MyDrive/Dead_line ISRO/Matching Tables/states.csv")
-    cities_df = pd.read_csv("/content/drive/MyDrive/Dead_line ISRO/Matching Tables/cities.csv")
+    countries_df = pd.read_csv("/content/drive/MyDrive/NER/countries.csv")
+    states_df = pd.read_csv("/content/drive/MyDrive/NER/states.csv")
+    cities_df = pd.read_csv("/content/drive/MyDrive/NER/cities.csv")
 
 
     n_cities = len(cities_df)
