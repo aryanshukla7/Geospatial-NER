@@ -4,9 +4,10 @@
 This project is an NER application which can extract names of cities, states and countries (places) from a natural language sentence. This project was selected as top 5 in India amongst 220 teams for the Smart India Hackathon 2023, on a problem statement by the Indian Space Research Organization (ISRO).
 
 
-## Authors
+## Contributors
 
 - [Aryan Shukla](https://www.github.com/aryanshukla7)
+- [Shreya Jain](https://github.com/shreya5627)
 
 
 ## Deployment
