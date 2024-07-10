@@ -8,7 +8,8 @@ This project is an NER application which can extract names of cities, states and
 
 - [Aryan Shukla](https://www.github.com/aryanshukla7)
 - [Shreya Jain](https://github.com/shreya5627)
-- [Aashray Gupta](https://github.com/aashraygupta2003) 
+- [Aashray Gupta](https://github.com/aashraygupta2003)
+- [Aman Kumar](https://github.com/Aman-garg-IITian)
 
 
 ## Deployment
